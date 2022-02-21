@@ -9,32 +9,30 @@
     
      <title>Document</title>
 </head>
-<body id="root" class="d-flex justify-content-center">
-    <!-- <button type="button" class="btn btn-secondary me-3"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
-        Popover on top
-      </button>
-      <button type="button" class="btn btn-secondary me-3"  data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
-        Popover on right
-      </button>
-      <button type="button" class="btn btn-secondary me-3"  data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-        Popover on bottom
-      </button>
-      <button type="button" class="btn btn-secondary me-3"  data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
-        Popover on left
-      </button> -->
-
-
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <!-- <script>
-        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
-})
-    </script> -->
-    <script src="./paginator.js"></script>
+<body>
+    <style>
+        #field {
+        width: 400px;
+        height: 400px;
+        box-sizing: content-box;
+        border: 1px solid black
+        }
+        .chess-block {
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+        .bg-black {
+            background: black;
+        }
+        
+    </style>
+<div class="container">
+    <div class="left"></div>
+    <div id="field"></div>
+</div>
+</body> 
+      
     <script src="./index.js"></script>
 </body>
 </html>
