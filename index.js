@@ -20,9 +20,9 @@ function draw() {
         let arr = chess[i]
         for(let k = 0; k < arr.length; k++) {
             if(m % 2 == 0) {
-                out += `<div class="chess-block"></div>`
+                out += `<div class="chess-block" onclick="alert(${i+1} * ${k+1})"></div>`
             }else {
-                out += `<div class="chess-block bg-black"></div>`
+                out += `<div class="chess-block bg-black" onclick="alert(${i+1} * ${k+1})"></div>`
             }
             m++
         }
